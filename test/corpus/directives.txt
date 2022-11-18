@@ -1,0 +1,16 @@
+============================================
+Wrapper directive
+============================================
+
+%wrapper "test"
+:-
+
+
+----
+
+(lexer
+  (directive
+    name: (directive_name)
+    value: (string))
+  (scanner
+    (bind)))
